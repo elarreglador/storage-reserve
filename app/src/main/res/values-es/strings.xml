@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Reserva de espacio</string>
+    <string name="settings">Ajustes</string>
+    <string name="protected_status">Protegido</string>
+    <string name="no_reserve_status">Sin reserva</string>
+    <string name="free_space_label">Espacio libre en /data: %s</string>
+    <string name="release_button">Liberar %s</string>
+    <string name="reserve_button">Reservar</string>
+    <string name="insufficient_space">Espacio insuficiente (máx. %s)</string>
+    <string name="reserve_size">Tamaño de la reserva</string>
+    <string name="preset_512mb">512 MB</string>
+    <string name="preset_1gb">1 GB</string>
+    <string name="preset_2gb">2 GB</string>
+    <string name="custom_size">Personalizado</string>
+    <string name="custom_size_hint">Tamaño</string>
+    <string name="unit_mb">MB</string>
+    <string name="unit_gb">GB</string>
+    <string name="apply_button">Aplicar</string>
+    <string name="recreate_now">Recrear ahora</string>
+    <string name="creating_reserve">Creando reserva…</string>
+    <string name="deleting_reserve">Eliminando reserva…</string>
+    <string name="app_description">Esta App crea un archivo grande, cuando el telefono/tablet se llene y no funcione bien, abre la app y elimina ese archivo, el telefono funcionara correctamente y podras borrar -otras- apps inutiles.</string>
+</resources>

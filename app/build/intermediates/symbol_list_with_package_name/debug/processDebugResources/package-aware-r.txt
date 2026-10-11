@@ -935,6 +935,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string app_description
 string app_name
 string apply_button
 string call_notification_answer_action

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/ccbeb609e6606eb131dfee8b516c86f5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/65235a5eac37a9fdcf12224da2ef9033/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/5c5c9aeaadf8895355b4cceef11125c9/transformed/navigation-common-2.8.2/AndroidManifest.xml:17:1-22:12
@@ -71,16 +71,16 @@ MERGED from [androidx.tracing:tracing:1.0.0] /home/elarreglador/.gradle/caches/t
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/32578976e63666c8bed89db13aa659cf/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/elarreglador/.gradle/caches/transforms-4/edaff893c675659755047fa3c0ac4da6/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:4:5-22:19
-INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:4:5-22:19
+ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:4:5-22:19
+INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:4:5-22:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
@@ -98,47 +98,47 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglado
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:9:9-50
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:9:9-50
 	android:icon
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:7:9-45
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:7:9-45
 	android:allowBackup
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:11:9-48
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:11:9-48
 	android:name
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:5:9-43
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:5:9-43
 activity#eu.elarreglador.storage.reserve.MainActivity
-ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:12:9-21:20
+ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:12:9-21:20
 	android:label
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:15:13-45
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:15:13-45
 	android:exported
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:14:13-36
 	android:theme
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:16:13-52
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:16:13-52
 	android:name
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:17:13-20:29
+ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
-INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml
+INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/ccbeb609e6606eb131dfee8b516c86f5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/ccbeb609e6606eb131dfee8b516c86f5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/65235a5eac37a9fdcf12224da2ef9033/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
@@ -272,9 +272,9 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/elarreglador/.gradl
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/elarreglador/.gradle/caches/transforms-4/edaff893c675659755047fa3c0ac4da6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/elarreglador/.gradle/caches/transforms-4/edaff893c675659755047fa3c0ac4da6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml
 activity#androidx.activity.ComponentActivity
 ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:23:9-25:39
 	android:exported

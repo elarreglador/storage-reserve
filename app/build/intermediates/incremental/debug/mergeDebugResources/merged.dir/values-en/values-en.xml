@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">This app creates a large file; when the phone/tablet fills up and stops working properly, open the app and delete that file, the phone will work correctly and you can delete other useless apps</string>
+    <string name="app_name">Storage Reserve</string>
+    <string name="apply_button">Apply</string>
+    <string name="creating_reserve">Creating reserve…</string>
+    <string name="custom_size">Custom</string>
+    <string name="custom_size_hint">Size</string>
+    <string name="deleting_reserve">Deleting reserve…</string>
+    <string name="free_space_label">Free space in /data: %s</string>
+    <string name="insufficient_space">Insufficient space (max. %s)</string>
+    <string name="no_reserve_status">No reserve</string>
+    <string name="preset_1gb">1 GB</string>
+    <string name="preset_2gb">2 GB</string>
+    <string name="preset_512mb">512 MB</string>
+    <string name="protected_status">Protected</string>
+    <string name="recreate_now">Recreate now</string>
+    <string name="release_button">Release %s</string>
+    <string name="reserve_button">Reserve</string>
+    <string name="reserve_size">Reserve size</string>
+    <string name="settings">Settings</string>
+    <string name="unit_gb">GB</string>
+    <string name="unit_mb">MB</string>
+</resources>

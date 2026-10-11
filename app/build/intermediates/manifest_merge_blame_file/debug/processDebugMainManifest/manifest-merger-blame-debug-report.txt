@@ -20,44 +20,44 @@
 15-->[androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:4:5-22:19
+17-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:4:5-22:19
 18        android:name="eu.elarreglador.storage.reserve.ReserveApplication"
-18-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:5:9-43
+18-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:5:9-43
 19        android:allowBackup="true"
-19-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:6:9-35
+19-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:6:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:icon="@drawable/ic_launcher"
-23-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:7:9-45
+23-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:7:9-45
 24        android:label="@string/app_name"
-24-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:8:9-41
+24-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:8:9-41
 25        android:roundIcon="@drawable/ic_launcher"
-25-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:9:9-50
+25-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:9:9-50
 26        android:supportsRtl="true"
-26-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:10:9-35
+26-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:10:9-35
 27        android:theme="@style/Theme.ReserveApp" >
-27-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:11:9-48
+27-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:11:9-48
 28        <activity
-28-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:12:9-21:20
+28-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:12:9-21:20
 29            android:name="eu.elarreglador.storage.reserve.MainActivity"
-29-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:13:13-41
+29-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:13:13-41
 30            android:exported="true"
-30-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:14:13-36
+30-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:14:13-36
 31            android:label="@string/app_name"
-31-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:15:13-45
+31-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:15:13-45
 32            android:theme="@style/Theme.ReserveApp" >
-32-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:16:13-52
+32-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:16:13-52
 33            <intent-filter>
-33-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:17:13-20:29
+33-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:17:13-20:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:18:17-69
-34-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:18:25-66
+34-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:18:17-69
+34-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:18:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:19:17-77
-36-->/home/elarreglador/temp/app/src/main/AndroidManifest.xml:19:27-74
+36-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:19:17-77
+36-->/home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:19:27-74
 37            </intent-filter>
 38        </activity>
 39        <activity

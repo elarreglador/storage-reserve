@@ -148,14 +148,23 @@ fun MainScreen(
 
                 androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(8.dp))
 
-                Text(
-                    text = stringResource(R.string.free_space_label, formatSize(freeSpace)),
-                    fontSize = 18.sp,
-                    color = colors.onSurfaceVariant,
-                    textAlign = TextAlign.Center
-                )
+Text(
+                     text = stringResource(R.string.free_space_label, formatSize(freeSpace)),
+                     fontSize = 18.sp,
+                     color = colors.onSurfaceVariant,
+                     textAlign = TextAlign.Center
+                 )
 
-                if (isLoading) {
+                 androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(16.dp))
+
+                 Text(
+                     text = stringResource(R.string.app_description),
+                     fontSize = 14.sp,
+                     color = colors.onSurfaceVariant,
+                     textAlign = TextAlign.Center
+                 )
+
+                 if (isLoading) {
                     androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(16.dp))
                     CircularProgressIndicator(progress = progress)
                     androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(8.dp))

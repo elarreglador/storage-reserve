@@ -27,6 +27,9 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享對象"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="app_description">This app creates a large file; when the phone/tablet fills up and stops working properly, open the app and delete that file, the phone will work correctly and you can delete other useless apps</string>
+    <string name="app_name">TODO</string>
+    <string name="apply_button">TODO</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"接聽"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"視訊"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string>
@@ -36,11 +39,17 @@
     <string msgid="59049573811482460" name="call_notification_screening_text">"正在過濾來電"</string>
     <string msgid="406453423630273620" name="close_drawer">"關閉導覽選單"</string>
     <string msgid="7573152094250666567" name="close_sheet">"關閉功能表"</string>
+    <string name="creating_reserve">TODO</string>
+    <string name="custom_size">TODO</string>
+    <string name="custom_size_hint">TODO</string>
     <string msgid="8038256446254964252" name="default_error_message">"輸入內容無效"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"彈出式視窗"</string>
+    <string name="deleting_reserve">TODO</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"下拉式選單"</string>
+    <string name="free_space_label">TODO</string>
     <string msgid="6827826412747255547" name="in_progress">"處理中"</string>
     <string msgid="7933458017204019916" name="indeterminate">"部分檢查"</string>
+    <string name="insufficient_space">TODO</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"收合底部功能表"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"關閉底部功能表"</string>
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"拖曳控點"</string>
@@ -98,11 +107,21 @@
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"顯示工具提示"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"工具提示"</string>
     <string msgid="542007171693138492" name="navigation_menu">"導覽選單"</string>
+    <string name="no_reserve_status">TODO</string>
     <string msgid="6610465462668679431" name="not_selected">"未選取"</string>
+    <string name="preset_1gb">TODO</string>
+    <string name="preset_2gb">TODO</string>
+    <string name="preset_512mb">TODO</string>
+    <string name="protected_status">TODO</string>
     <string msgid="5941395253238309765" name="range_end">"範圍終點"</string>
     <string msgid="7097486360902471446" name="range_start">"範圍起點"</string>
+    <string name="recreate_now">TODO</string>
+    <string name="release_button">TODO</string>
+    <string name="reserve_button">TODO</string>
+    <string name="reserve_size">TODO</string>
     <string msgid="6264217191555673260" name="search_menu_title">"搜尋"</string>
     <string msgid="6043586758067023" name="selected">"已選取"</string>
+    <string name="settings">TODO</string>
     <string msgid="4139871816613051306" name="state_empty">"空白"</string>
     <string msgid="5834637030682409883" name="state_off">"已關閉"</string>
     <string msgid="1490883874751719580" name="state_on">"已開啟"</string>
@@ -112,4 +131,6 @@
     <string msgid="5946805113151406391" name="template_percent">"百分之 <ns1:g id="PERCENTAGE">%1$d</ns1:g>。"</string>
     <string msgid="3765533235322692011" name="tooltip_description">"工具提示"</string>
     <string msgid="3124740595719787496" name="tooltip_label">"顯示工具提示"</string>
+    <string name="unit_gb">TODO</string>
+    <string name="unit_mb">TODO</string>
 </resources>
