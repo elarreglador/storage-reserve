@@ -106,9 +106,9 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/
 	android:label
 		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:9:9-50
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:9:9-48
 	android:icon
-		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:7:9-45
+		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
 		ADDED from /home/elarreglador/dev/kotlin/storage-reserve/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme

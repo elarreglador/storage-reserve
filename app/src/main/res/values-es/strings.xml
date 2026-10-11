@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Reserva de espacio</string>
+    <string name="app_name">Storage Reserve</string>
     <string name="settings">Ajustes</string>
     <string name="protected_status">Protegido</string>
     <string name="no_reserve_status">Sin reserva</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_description">Esta App crea un archivo grande, cuando el telefono/tablet se llene y no funcione bien, abre la app y elimina ese archivo, el telefono funcionara correctamente y podras borrar -otras- apps inutiles.</string>
-    <string name="app_name">Reserva de espacio</string>
+    <string name="app_name">Storage Reserve</string>
     <string name="apply_button">Aplicar</string>
     <string name="creating_reserve">Creando reserva…</string>
     <string name="custom_size">Personalizado</string>

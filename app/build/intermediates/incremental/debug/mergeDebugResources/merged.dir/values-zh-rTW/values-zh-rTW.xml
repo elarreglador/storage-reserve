@@ -28,7 +28,7 @@
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
     <string name="app_description">This app creates a large file; when the phone/tablet fills up and stops working properly, open the app and delete that file, the phone will work correctly and you can delete other useless apps</string>
-    <string name="app_name">TODO</string>
+    <string name="app_name">Storage Reserve</string>
     <string name="apply_button">TODO</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"接聽"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"視訊"</string>
