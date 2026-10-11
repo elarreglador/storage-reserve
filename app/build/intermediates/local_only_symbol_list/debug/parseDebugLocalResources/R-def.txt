@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher
+string app_name
+string apply_button
+string creating_reserve
+string custom_size
+string custom_size_hint
+string deleting_reserve
+string free_space_label
+string insufficient_space
+string no_reserve_status
+string preset_1gb
+string preset_2gb
+string preset_512mb
+string protected_status
+string recreate_now
+string release_button
+string reserve_button
+string reserve_size
+string settings
+string unit_gb
+string unit_mb
+style Theme.ReserveApp

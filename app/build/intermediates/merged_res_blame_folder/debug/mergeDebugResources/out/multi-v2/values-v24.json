@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "eu.elarreglador.storage.reserve.app-mergeDebugResources-56:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/home/elarreglador/.gradle/caches/transforms-4/65235a5eac37a9fdcf12224da2ef9033/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

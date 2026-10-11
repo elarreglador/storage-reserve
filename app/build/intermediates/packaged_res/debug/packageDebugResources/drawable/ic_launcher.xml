@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Fondo disco -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M14,54a40,40 0 1,0 80,0a40,40 0 1,0 -80,0" />
+    <!-- Anillo interno -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,54a27,27 0 1,0 54,0a27,27 0 1,0 -54,0" />
+    <!-- Escudo -->
+    <path
+        android:fillColor="#34A853"
+        android:pathData="M54,24 L84,36 L84,66 L54,90 L24,66 L24,36 Z" />
+    <!-- Checkmark en el escudo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,54 L50,60 L64,40"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

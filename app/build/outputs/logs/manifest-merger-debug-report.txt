@@ -1,0 +1,379 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/ccbeb609e6606eb131dfee8b516c86f5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/65235a5eac37a9fdcf12224da2ef9033/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/5c5c9aeaadf8895355b4cceef11125c9/transformed/navigation-common-2.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/37937065ace66ed6babe2b489e1620bf/transformed/navigation-runtime-2.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/5e8c8582053a8d70b6f6a31d0b937ec5/transformed/navigation-common-ktx-2.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/21c4067f3a4368f9e6bdcb6c28a6d1f9/transformed/navigation-runtime-ktx-2.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/b8a87d887e45e4b2303b2134d859c0af/transformed/navigation-compose-2.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.5.4] /home/elarreglador/.gradle/caches/transforms-4/7c1432de6f3b398dce966e3d5e8fa66c/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/2e6f54b065d84df948c033a273cff6fa/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/865576a400cba0827fbddbdc3806ebe0/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/0b437c63889c24c88bfaab532ca358b6/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/982f7ea39fd50696661ce763570a0cdd/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/a5e22fda421e87a93a0fa54e2438d585/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/690f1ca04c1726009106ed390e1eee5b/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/d2afed9b15cee5c3c710e3009f93871e/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/df8e4f773f8d4f2c8fd9b4796efaada6/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/e01f19c2ee0ee7ff2ca5bb3693bcca18/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/c4addb1feacd04f4389cc3c17cb14ba3/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/7a6fb479659a2558185a43abd0daecab/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/5b9b5482384646588fd26fa04a41736c/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/dd44943ce6b488a33fe75d1745f27b7b/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/47565726075db235d7e4c79472c426f7/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/e3823f0626b084af41360ea0a0ad277b/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/78ebbcf0ec86b9279ad7ce39515ff1b0/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/c268c50666dd658aa461b312348457a8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/7c7601a052eb5e77f27b9db80fdff2af/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/551aa118467ca47add4207a75fd4452e/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/f1083c62a1b699afd493b9f65f8ccde0/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/elarreglador/.gradle/caches/transforms-4/538967a716c0c061a9ec7b7716608f0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/elarreglador/.gradle/caches/transforms-4/2b282a4e96ea356728a640988126cd88/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/0486255c119f8c9c0a3bd8b3158cb93f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/3f2a5365b0f9c7c7ea6d19389545dab2/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/ed33ec2232b49637ca1885fa5bbd8f15/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/elarreglador/.gradle/caches/transforms-4/ce8b48c5ce21686edf5d8c0b7b0465d3/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/0ea79870acfbcf58b4039df60fe78aca/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/3e8b297b1ba8a4001dcf149a91bcd2a8/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/b0767ab8a88bf88e9140afd2592e2f53/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/fd4b69441a993a8626450070d55b65bc/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/9cc1e6b5845c210bd52842f181f5f240/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/3cdc1aa4b0119f5ab6f7934a57e9fc81/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/6c4cb34ec2690137b01b7e1735e97850/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/8e1614200bfb05c2d1b8c3bb3d554aec/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/344d9773c9a12f08c09fff615d9f1b50/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/7c5ac40513cf9fd2c6b42343e68d587c/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/bbbccbbfe8eeda2dbab5359c651145af/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/33bf106a7c943bc62c802f2542d1d678/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/0d5b89fdac5d0c205fb5012a6b675a4b/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/033cddcba624954981c711d3bce99a6e/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/1a90c3edee9f2514af6b1035191740ac/transformed/activity-ktx-1.9.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/3f42a1469b1ce0527f9e33c184429285/transformed/activity-1.9.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/fb1cf3c963e934e766c2b7720e196c78/transformed/activity-compose-1.9.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/032af3612a442c2da69d1e254dbad96c/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/5ceffb3fd1dfe998c74aed7da1cd9dab/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/elarreglador/.gradle/caches/transforms-4/01aa0fd5c9c60c700645f726e734a5bb/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/f693e786f2891439d58ddec6d74d112b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/22c136815b94316d6386f2919aa5892a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/f01465a54f52a159c2045d754ccb0340/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/32578976e63666c8bed89db13aa659cf/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/elarreglador/.gradle/caches/transforms-4/edaff893c675659755047fa3c0ac4da6/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:4:5-22:19
+INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:4:5-22:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/f693e786f2891439d58ddec6d74d112b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/f693e786f2891439d58ddec6d74d112b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:9:9-50
+	android:icon
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:7:9-45
+	android:allowBackup
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:11:9-48
+	android:name
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:5:9-43
+activity#eu.elarreglador.storage.reserve.MainActivity
+ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:15:13-45
+	android:exported
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:14:13-36
+	android:theme
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:16:13-52
+	android:name
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/ccbeb609e6606eb131dfee8b516c86f5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/ccbeb609e6606eb131dfee8b516c86f5/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/65235a5eac37a9fdcf12224da2ef9033/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/elarreglador/.gradle/caches/transforms-4/65235a5eac37a9fdcf12224da2ef9033/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/5c5c9aeaadf8895355b4cceef11125c9/transformed/navigation-common-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/5c5c9aeaadf8895355b4cceef11125c9/transformed/navigation-common-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/37937065ace66ed6babe2b489e1620bf/transformed/navigation-runtime-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/37937065ace66ed6babe2b489e1620bf/transformed/navigation-runtime-2.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/5e8c8582053a8d70b6f6a31d0b937ec5/transformed/navigation-common-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/5e8c8582053a8d70b6f6a31d0b937ec5/transformed/navigation-common-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/21c4067f3a4368f9e6bdcb6c28a6d1f9/transformed/navigation-runtime-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/21c4067f3a4368f9e6bdcb6c28a6d1f9/transformed/navigation-runtime-ktx-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/b8a87d887e45e4b2303b2134d859c0af/transformed/navigation-compose-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.2] /home/elarreglador/.gradle/caches/transforms-4/b8a87d887e45e4b2303b2134d859c0af/transformed/navigation-compose-2.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] /home/elarreglador/.gradle/caches/transforms-4/7c1432de6f3b398dce966e3d5e8fa66c/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/elarreglador/.gradle/caches/transforms-4/7c1432de6f3b398dce966e3d5e8fa66c/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/2e6f54b065d84df948c033a273cff6fa/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/2e6f54b065d84df948c033a273cff6fa/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/865576a400cba0827fbddbdc3806ebe0/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/865576a400cba0827fbddbdc3806ebe0/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/0b437c63889c24c88bfaab532ca358b6/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/0b437c63889c24c88bfaab532ca358b6/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/982f7ea39fd50696661ce763570a0cdd/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/982f7ea39fd50696661ce763570a0cdd/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/a5e22fda421e87a93a0fa54e2438d585/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/a5e22fda421e87a93a0fa54e2438d585/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/690f1ca04c1726009106ed390e1eee5b/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/690f1ca04c1726009106ed390e1eee5b/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/d2afed9b15cee5c3c710e3009f93871e/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/d2afed9b15cee5c3c710e3009f93871e/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/df8e4f773f8d4f2c8fd9b4796efaada6/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/df8e4f773f8d4f2c8fd9b4796efaada6/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/e01f19c2ee0ee7ff2ca5bb3693bcca18/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/e01f19c2ee0ee7ff2ca5bb3693bcca18/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/c4addb1feacd04f4389cc3c17cb14ba3/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/c4addb1feacd04f4389cc3c17cb14ba3/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/7a6fb479659a2558185a43abd0daecab/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/7a6fb479659a2558185a43abd0daecab/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/5b9b5482384646588fd26fa04a41736c/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/5b9b5482384646588fd26fa04a41736c/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/dd44943ce6b488a33fe75d1745f27b7b/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/dd44943ce6b488a33fe75d1745f27b7b/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/47565726075db235d7e4c79472c426f7/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /home/elarreglador/.gradle/caches/transforms-4/47565726075db235d7e4c79472c426f7/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/e3823f0626b084af41360ea0a0ad277b/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/e3823f0626b084af41360ea0a0ad277b/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/78ebbcf0ec86b9279ad7ce39515ff1b0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/78ebbcf0ec86b9279ad7ce39515ff1b0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/c268c50666dd658aa461b312348457a8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/c268c50666dd658aa461b312348457a8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/7c7601a052eb5e77f27b9db80fdff2af/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/7c7601a052eb5e77f27b9db80fdff2af/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/551aa118467ca47add4207a75fd4452e/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/551aa118467ca47add4207a75fd4452e/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/f1083c62a1b699afd493b9f65f8ccde0/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/f1083c62a1b699afd493b9f65f8ccde0/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/elarreglador/.gradle/caches/transforms-4/538967a716c0c061a9ec7b7716608f0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/elarreglador/.gradle/caches/transforms-4/538967a716c0c061a9ec7b7716608f0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/elarreglador/.gradle/caches/transforms-4/2b282a4e96ea356728a640988126cd88/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/elarreglador/.gradle/caches/transforms-4/2b282a4e96ea356728a640988126cd88/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/0486255c119f8c9c0a3bd8b3158cb93f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/0486255c119f8c9c0a3bd8b3158cb93f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/3f2a5365b0f9c7c7ea6d19389545dab2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/3f2a5365b0f9c7c7ea6d19389545dab2/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/ed33ec2232b49637ca1885fa5bbd8f15/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/ed33ec2232b49637ca1885fa5bbd8f15/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/elarreglador/.gradle/caches/transforms-4/ce8b48c5ce21686edf5d8c0b7b0465d3/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/elarreglador/.gradle/caches/transforms-4/ce8b48c5ce21686edf5d8c0b7b0465d3/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/0ea79870acfbcf58b4039df60fe78aca/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/0ea79870acfbcf58b4039df60fe78aca/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/3e8b297b1ba8a4001dcf149a91bcd2a8/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/elarreglador/.gradle/caches/transforms-4/3e8b297b1ba8a4001dcf149a91bcd2a8/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/b0767ab8a88bf88e9140afd2592e2f53/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/b0767ab8a88bf88e9140afd2592e2f53/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/fd4b69441a993a8626450070d55b65bc/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/fd4b69441a993a8626450070d55b65bc/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/9cc1e6b5845c210bd52842f181f5f240/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/9cc1e6b5845c210bd52842f181f5f240/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/3cdc1aa4b0119f5ab6f7934a57e9fc81/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/3cdc1aa4b0119f5ab6f7934a57e9fc81/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/6c4cb34ec2690137b01b7e1735e97850/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/6c4cb34ec2690137b01b7e1735e97850/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/8e1614200bfb05c2d1b8c3bb3d554aec/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/8e1614200bfb05c2d1b8c3bb3d554aec/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/344d9773c9a12f08c09fff615d9f1b50/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/344d9773c9a12f08c09fff615d9f1b50/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/7c5ac40513cf9fd2c6b42343e68d587c/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/7c5ac40513cf9fd2c6b42343e68d587c/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/bbbccbbfe8eeda2dbab5359c651145af/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/bbbccbbfe8eeda2dbab5359c651145af/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/33bf106a7c943bc62c802f2542d1d678/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/33bf106a7c943bc62c802f2542d1d678/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/0d5b89fdac5d0c205fb5012a6b675a4b/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/0d5b89fdac5d0c205fb5012a6b675a4b/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/033cddcba624954981c711d3bce99a6e/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/033cddcba624954981c711d3bce99a6e/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/1a90c3edee9f2514af6b1035191740ac/transformed/activity-ktx-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/1a90c3edee9f2514af6b1035191740ac/transformed/activity-ktx-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/3f42a1469b1ce0527f9e33c184429285/transformed/activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/3f42a1469b1ce0527f9e33c184429285/transformed/activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/fb1cf3c963e934e766c2b7720e196c78/transformed/activity-compose-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.1] /home/elarreglador/.gradle/caches/transforms-4/fb1cf3c963e934e766c2b7720e196c78/transformed/activity-compose-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/032af3612a442c2da69d1e254dbad96c/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/032af3612a442c2da69d1e254dbad96c/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/5ceffb3fd1dfe998c74aed7da1cd9dab/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/5ceffb3fd1dfe998c74aed7da1cd9dab/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/elarreglador/.gradle/caches/transforms-4/01aa0fd5c9c60c700645f726e734a5bb/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/elarreglador/.gradle/caches/transforms-4/01aa0fd5c9c60c700645f726e734a5bb/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/f693e786f2891439d58ddec6d74d112b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/f693e786f2891439d58ddec6d74d112b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/22c136815b94316d6386f2919aa5892a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/22c136815b94316d6386f2919aa5892a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/f01465a54f52a159c2045d754ccb0340/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/f01465a54f52a159c2045d754ccb0340/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/32578976e63666c8bed89db13aa659cf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/elarreglador/.gradle/caches/transforms-4/32578976e63666c8bed89db13aa659cf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/elarreglador/.gradle/caches/transforms-4/edaff893c675659755047fa3c0ac4da6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/elarreglador/.gradle/caches/transforms-4/edaff893c675659755047fa3c0ac4da6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/elarreglador/temp/app/src/main/AndroidManifest.xml
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/1ead5b22d1ff9c67d13ce21e5aafce2a/transformed/ui-test-manifest-1.7.2/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/elarreglador/.gradle/caches/transforms-4/ef95a46d8cf5568e0c4616b0ea0005e7/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/elarreglador/.gradle/caches/transforms-4/e41aed3dc80bc6092eef585fcaf593b1/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/elarreglador/.gradle/caches/transforms-4/8b267d489be55e587331e436801a2fe2/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#eu.elarreglador.storage.reserve.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#eu.elarreglador.storage.reserve.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/elarreglador/.gradle/caches/transforms-4/11020aafc028db5f5b4c3780b162e5cf/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /home/elarreglador/.gradle/caches/transforms-4/17135aa0f7bfd074fb11a34d9aa399c4/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/elarreglador/.gradle/caches/transforms-4/f8cd404950dbf540e24e3b984f133682/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "eu.elarreglador.storage.reserve.app-mergeDebugResources-56:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/elarreglador/.gradle/caches/transforms-4/65235a5eac37a9fdcf12224da2ef9033/transformed/appcompat-1.7.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.ReserveApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Colores personalizados se definen en Theme.kt -->
+    </style>
+</resources>
