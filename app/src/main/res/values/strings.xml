@@ -20,4 +20,9 @@
     <string name="creating_reserve">Creating reserve…</string>
     <string name="deleting_reserve">Deleting reserve…</string>
     <string name="app_description">This app creates a large file; when the phone/tablet fills up and stops working properly, open the app and delete that file, the phone will work correctly and you can delete other useless apps</string>
+
+    <string name="storage_bar_free">Free: %s</string>
+    <string name="storage_bar_used">Used: %s</string>
+    <string name="storage_bar_reserved">Reserved: %s</string>
+    <string name="storage_bar_total">Total: %s</string>
 </resources>

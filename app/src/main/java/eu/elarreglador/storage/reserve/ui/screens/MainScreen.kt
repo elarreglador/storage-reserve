@@ -1,11 +1,16 @@
 package eu.elarreglador.storage.reserve.ui.screens
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -25,6 +30,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -43,6 +50,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import androidx.compose.runtime.rememberCoroutineScope
+import kotlin.math.max
+import kotlin.ranges.coerceIn
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -53,6 +62,7 @@ fun MainScreen(
     onNavigateToSettings: () -> Unit
 ) {
     var freeSpace by remember { mutableStateOf(reserveManager.getFreeSpaceBytes()) }
+    var totalSpace by remember { mutableStateOf(reserveManager.getTotalSpaceBytes()) }
     var isLoading by remember { mutableStateOf(false) }
     var progress by remember { mutableStateOf(0f) }
     var errorMessage by remember { mutableStateOf<String?>(null) }
@@ -65,6 +75,7 @@ fun MainScreen(
     LaunchedEffect(reserveState.isReserved, reserveState.reservedSizeBytes) {
         while (true) {
             freeSpace = reserveManager.getFreeSpaceBytes()
+            totalSpace = reserveManager.getTotalSpaceBytes()
             delay(2000)
         }
     }
@@ -88,13 +99,19 @@ fun MainScreen(
         }
     }
 
-    val isProtected = reserveState.isReserved && reserveManager.isReserveExists()
+val isProtected = reserveState.isReserved && reserveManager.isReserveExists()
+    val reservedSpace = if (isProtected) reserveState.reservedSizeBytes else 0L
+    val usedSpace = max(0L, totalSpace - freeSpace - reservedSpace)
     val buttonText = if (isProtected) {
         stringResource(R.string.release_button, formatSize(reserveState.reservedSizeBytes))
     } else {
         stringResource(R.string.reserve_button)
     }
     val canReserve = reserveManager.getFreeSpaceBytes() >= reserveState.reservedSizeBytes
+
+    val freePercent = if (totalSpace > 0) freeSpace.toFloat() / totalSpace else 0f
+    val usedPercent = if (totalSpace > 0) usedSpace.toFloat() / totalSpace else 0f
+    val reservedPercent = if (totalSpace > 0) reservedSpace.toFloat() / totalSpace else 0f
 
     Column(
         modifier = Modifier.fillMaxSize(),
@@ -148,23 +165,23 @@ fun MainScreen(
 
                 androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(8.dp))
 
-Text(
-                     text = stringResource(R.string.free_space_label, formatSize(freeSpace)),
-                     fontSize = 18.sp,
-                     color = colors.onSurfaceVariant,
-                     textAlign = TextAlign.Center
-                 )
+                Text(
+                    text = stringResource(R.string.free_space_label, formatSize(freeSpace)),
+                    fontSize = 18.sp,
+                    color = colors.onSurfaceVariant,
+                    textAlign = TextAlign.Center
+                )
 
-                 androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(16.dp))
+                androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(16.dp))
 
-                 Text(
-                     text = stringResource(R.string.app_description),
-                     fontSize = 14.sp,
-                     color = colors.onSurfaceVariant,
-                     textAlign = TextAlign.Center
-                 )
+                Text(
+                    text = stringResource(R.string.app_description),
+                    fontSize = 14.sp,
+                    color = colors.onSurfaceVariant,
+                    textAlign = TextAlign.Center
+                )
 
-                 if (isLoading) {
+                if (isLoading) {
                     androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(16.dp))
                     CircularProgressIndicator(progress = progress)
                     androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(8.dp))
@@ -239,6 +256,105 @@ Text(
                         textAlign = TextAlign.Center
                     )
                 }
+            }
+        }
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp, vertical = 8.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = colors.surfaceContainerHighest
+            )
+        ) {
+            Column(modifier = Modifier.padding(16.dp)) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(8.dp)
+                        .background(colors.surfaceContainer, shape = androidx.compose.foundation.shape.RoundedCornerShape(4.dp))
+                ) {
+                    val totalPercent = (freePercent + usedPercent + reservedPercent).coerceIn(0f, 1f)
+                    if (freePercent > 0) {
+                        Box(
+                            modifier = Modifier
+                                .weight(freePercent / totalPercent)
+                                .height(8.dp)
+                                .background(successColor)
+                                .clip(androidx.compose.foundation.shape.RoundedCornerShape(4.dp, 0.dp, 0.dp, 4.dp))
+                        )
+                    }
+                    if (usedPercent > 0) {
+                        Box(
+                            modifier = Modifier
+                                .weight(usedPercent / totalPercent)
+                                .height(8.dp)
+                                .background(colors.primary)
+                        )
+                    }
+                    if (reservedPercent > 0) {
+                        Box(
+                            modifier = Modifier
+                                .weight(reservedPercent / totalPercent)
+                                .height(8.dp)
+                                .background(warningColor)
+                                .clip(androidx.compose.foundation.shape.RoundedCornerShape(0.dp, 4.dp, 4.dp, 0.dp))
+                        )
+                    }
+                }
+
+                androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(12.dp))
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Column {
+                        Text(
+                            text = stringResource(R.string.storage_bar_free, formatSize(freeSpace)),
+                            fontSize = 12.sp,
+                            color = successColor
+                        )
+                        Text(
+                            text = String.format("%.0f%%", freePercent * 100),
+                            fontSize = 10.sp,
+                            color = colors.onSurfaceVariant
+                        )
+                    }
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(
+                            text = stringResource(R.string.storage_bar_used, formatSize(usedSpace)),
+                            fontSize = 12.sp,
+                            color = colors.primary
+                        )
+                        Text(
+                            text = String.format("%.0f%%", usedPercent * 100),
+                            fontSize = 10.sp,
+                            color = colors.onSurfaceVariant
+                        )
+                    }
+                    Column(horizontalAlignment = Alignment.End) {
+                        Text(
+                            text = stringResource(R.string.storage_bar_reserved, formatSize(reservedSpace)),
+                            fontSize = 12.sp,
+                            color = warningColor
+                        )
+                        Text(
+                            text = String.format("%.0f%%", reservedPercent * 100),
+                            fontSize = 10.sp,
+                            color = colors.onSurfaceVariant
+                        )
+                    }
+                }
+
+                androidx.compose.foundation.layout.Spacer(modifier = Modifier.padding(8.dp))
+
+                Text(
+                    text = stringResource(R.string.storage_bar_total, formatSize(totalSpace)),
+                    fontSize = 12.sp,
+                    color = colors.onSurfaceVariant,
+                    textAlign = TextAlign.Center
+                )
             }
         }
     }

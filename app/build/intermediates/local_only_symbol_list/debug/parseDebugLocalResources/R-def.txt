@@ -22,6 +22,10 @@ string release_button
 string reserve_button
 string reserve_size
 string settings
+string storage_bar_free
+string storage_bar_reserved
+string storage_bar_total
+string storage_bar_used
 string unit_gb
 string unit_mb
 style Theme.ReserveApp

@@ -78,6 +78,11 @@ class ReserveManager(private val context: Context) {
         return statFs.availableBlocksLong * statFs.blockSizeLong
     }
 
+    fun getTotalSpaceBytes(): Long {
+        val statFs = StatFs("/data")
+        return statFs.blockCountLong * statFs.blockSizeLong
+    }
+
     fun getReserveSize(): Long = if (reserveFile.exists()) reserveFile.length() else 0L
 
     fun isReserveExists(): Boolean = reserveFile.exists()
